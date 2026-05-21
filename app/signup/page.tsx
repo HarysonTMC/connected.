@@ -10,7 +10,7 @@ export default function SignupPage() {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [role, setRole] = useState("Learner");
+  const [role, setRole] = useState("Editor");
   const [message, setMessage] = useState("");
 
   async function handleSignup() {
