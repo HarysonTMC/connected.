@@ -1,5 +1,4 @@
 import Link from "next/link";
-import PricingSection from "../components/PricingSection";
 
 export default function Home() {
   return (
@@ -195,7 +194,6 @@ export default function Home() {
         </div>
       </section>
 
-      <PricingSection />
 
       <footer className="footer">
         <div className="container">
