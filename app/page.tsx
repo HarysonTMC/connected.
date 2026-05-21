@@ -102,7 +102,7 @@ export default function Home() {
     },
   ];
 
-  const openLesson = (lesson) => {
+  const openLesson = (lesson: Lesson) => {
     setActiveLesson(lesson);
     setScreen("lesson");
   };
