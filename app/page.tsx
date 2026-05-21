@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { courses } from "@/lib/courseData";
-import PricingSection from "@/components/PricingSection";
+import PricingSection from "../components/PricingSection";
 
 export default function Home() {
   return (
